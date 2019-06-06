@@ -1,0 +1,60 @@
+<!--Лабораторная работа №2 по дисциплине МРЗвИС
+Выполнена студенткой группы 721702
+БГУИР Феденко Екатерина Сергеевна
+Вариант 6
+
+04.06.2019
+
+Методы для работы с DOM взяты из ресурса: http://learn.javascript.ru/document
+Метод генерации случайных значение взят из источника http://javascript.ru/math.random
+Методы для создания таблицы взяты из ресурса: https://www.w3schools.com/jsref/coll_table_rows.asp
+Подсчёт Lavg, Lsum взят из книги Карцев М.А., Брик В.А. Вычислительные системы и синхронная арифметика. – М: Радио и связь, 1981.
+Вычисление Lavg взято из лабораторной работы №2 студента Икбаева Е.
+-->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <title>SIMD</title>
+</head>
+
+<body>
+    <h1 class="main__title">Реализация модели решения задачи на ОКМД архитектуре</h1>
+    <label>Enter m
+        <input type="text" id="m" value="1"></label>
+    <label>Enter p
+        <input type="text" id="p" value="1"></label>
+    <label>Enter q
+        <input type="text" id="q" value="1"></label>
+    <label>Enter n
+        <input type="text" id="n" value="1"></label>
+    <label>Time of sum
+        <input type="text" id="sum" value="1"></label>
+    <label>Time of difference
+        <input type="text" id="dif" value="1"></label>
+    <label>Time of multiplicity
+        <input type="text" id="mul" value="1"></label>
+    <label>Time of division
+        <input type="text" id="div" value="1"></label>
+    <label>Time of comparing
+        <input type="text" id="com" value="1"></label>
+    <button id="start" onclick="main();">Execute</button>
+    <label class="bold">Matrix A</label>
+    <table border="1" cellpadding="7" id="a"></table>
+    <label class="bold">Matrix B</label>
+    <table border="1" cellpadding="7" id="b"></table>
+    <label class="bold">Matrix E</label>
+    <table border="1" cellpadding="7" id="e"></table>
+    <label class="bold">Matrix G</label>
+    <table border="1" cellpadding="7" id="g"></table>
+    <label class="bold">Matrix C</label>
+    <table border="1" cellpadding="7" id="c"></table>
+    <table border="1" cellpadding="7" id="operationData"></table>
+    <table border="1" cellpadding="7" id="executedData"></table>
+    <script src="index.js"></script>
+</body>
+
+</html>

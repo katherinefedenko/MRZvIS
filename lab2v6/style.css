@@ -1,0 +1,39 @@
+body {
+    font-family: 'Open Sans', serif;
+    font-size: 14px;
+}
+
+.main__title {
+    text-align: center;
+    margin: 2% 26%;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+button,
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    margin-left: 10px;
+    width: 45px;
+}
+
+button {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
